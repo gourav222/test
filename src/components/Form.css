@@ -1,0 +1,66 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-1{
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    position: absolute;
+    top: 25%;
+    width: 60%;
+}
+.form-1 div{
+    width: 50%;
+    padding: 1%;
+}
+.nameEmail input{
+    width: 90%;
+}
+input{
+    padding: 2%;
+}
+.priceQuantity{
+    display: flex;
+}
+.cityState{
+    display: flex;
+}
+.cityState input{
+    width: 80%;
+}
+.placeOrder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4%;
+
+}
+.placeOrder button{
+    background-color: rgb(30, 29, 29);
+    border: none;
+    border-radius: 4%;
+    color: white;
+    width: 50%;
+    padding: 2%;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.productButton{
+    border:none;
+    border-radius: 5%;
+    background-color: rgb(88, 88, 255);
+    padding: 0.5%;
+    cursor: pointer;
+    position: relative;
+    left: 20%;
+    width: 10%;
+}
+.productButton a{
+    text-decoration: none;
+    color: white;
+}

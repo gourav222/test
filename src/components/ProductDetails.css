@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    border: 2px solid black;
+
+}
+.table-data{
+    border: 2px solid black;
+}
+.table-data tr {
+    margin: 1rem
+}
+th{
+    width: 10%;
+}
+td{
+    margin: 1rem 0rem 0rem 2rem;
+    border: 2px solid black;
+}
+span{
+    border: 2px solid black;
+    cursor: pointer;
+}
